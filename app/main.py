@@ -7,7 +7,6 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
-# Ensure the project root is on sys.path so we can import app.*
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from app.routes.converter import router as converter_router
@@ -16,11 +15,15 @@ from app.utils.file_handler import UPLOAD_DIR, OUTPUT_DIR
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-    handlers=[
-        logging.StreamHandler(),
-        logging.FileHandler("pdf_converter.log", encoding="utf-8"),
-    ],
+    handlers=[logging.StreamHandler()],
 )
+
+_file_handler = None
+try:
+    _file_handler = logging.FileHandler("pdf_converter.log", encoding="utf-8")
+    logging.getLogger().addHandler(_file_handler)
+except Exception:
+    pass
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +33,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Allow cross-origin requests from the frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -39,10 +41,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount all API routes under /api
 app.include_router(converter_router, prefix="/api", tags=["Conversion"])
 
-# Serve the static frontend at the root
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 if STATIC_DIR.is_dir():
     app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")
@@ -52,6 +52,10 @@ if STATIC_DIR.is_dir():
 async def startup():
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    logger.info(f"Upload directory: {UPLOAD_DIR}")
-    logger.info(f"Output directory: {OUTPUT_DIR}")
     logger.info("PDF Converter API started")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=False)

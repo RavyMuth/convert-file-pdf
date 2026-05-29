@@ -23,11 +23,13 @@ pdf-converter/
 ├── static/index.html            # Frontend UI
 ├── uploads/                     # Uploaded PDFs (auto-deleted after conversion)
 ├── outputs/                     # Converted files
+├── Procfile                     # Railway start command
+├── runtime.txt                  # Python version for Railway
 ├── requirements.txt
 └── README.md
 ```
 
-## Setup & Run
+## Setup & Run (Local)
 
 ```bash
 # 1. Create a virtual environment
@@ -45,6 +47,22 @@ python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Open **http://localhost:8000** in your browser to use the UI, or
 visit **http://localhost:8000/docs** for the interactive API documentation.
+
+## Deploy to Railway
+
+1. Push this repo to GitHub.
+2. In Railway, click **New Project** → **Deploy from GitHub repo**.
+3. Select the repo — Railway auto-detects `requirements.txt` and `Procfile`.
+4. No extra config needed. The app listens on `$PORT` automatically.
+
+### Manual deploy via Railway CLI
+
+```bash
+railway login
+railway init
+railway up
+railway domain
+```
 
 ## API Endpoints
 
@@ -86,7 +104,7 @@ curl http://localhost:8000/api/files
 - PDF validation (magic bytes `%PDF-` + file extension)
 - 100 MB file size limit
 - Auto-deletes source PDF after successful conversion
-- Logging to console and `pdf_converter.log`
+- Console logging (file logging fallback on local)
 - CORS enabled (works with any frontend)
 - Drag-and-drop frontend with real-time progress indicators
 - Interactive Swagger docs at `/docs`
