@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">PDF Converter</h1>
+            <p class="text-gray-500">Upload a PDF and convert it to Word, Excel, Image, Text, or HTML</p>
+        </header>
+
+        <!-- Upload area -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div id="upload-area"
+                 class="border-2 border-dashed border-gray-300 rounded-xl p-12 text-center cursor-pointer
+                        hover:border-blue-400 hover:bg-blue-50 transition-all"
+                 ondragover="event.preventDefault(); this.classList.add('border-blue-500', 'bg-blue-50')"
+                 ondragleave="this.classList.remove('border-blue-500', 'bg-blue-50')"
+                 ondrop="event.preventDefault(); handleDrop(event)">
+                <div id="upload-placeholder">
+                    <svg class="mx-auto h-16 w-16 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                              d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                    </svg>
+                    <p class="text-lg text-gray-600 mb-2">
+                        <span class="font-semibold text-blue-600">Click to upload</span> or drag and drop
+                    </p>
+                    <p class="text-sm text-gray-400">Only PDF files (max 100MB)</p>
+                    <input type="file" id="file-input" accept=".pdf" class="hidden"
+                           onchange="handleFileSelect(event)" />
+                </div>
+                <div id="upload-progress" class="hidden space-y-3">
+                    <div class="flex items-center justify-center space-x-2">
+                        <svg class="animate-spin h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                        </svg>
+                        <span id="upload-status" class="text-gray-600">Uploading...</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div id="upload-bar" class="bg-blue-600 h-2.5 rounded-full transition-all" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div id="upload-success" class="hidden">
+                    <svg class="mx-auto h-16 w-16 text-green-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <p class="text-lg font-semibold text-green-600">Uploaded Successfully!</p>
+                    <p id="uploaded-filename" class="text-sm text-gray-500 mt-1"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conversion buttons -->
+        <div id="conversion-section" class="hidden bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-xl font-semibold text-gray-800 mb-6">Convert To</h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <button onclick="convertFile('docx')"
+                        class="convert-btn bg-blue-500 hover:bg-blue-600 text-white rounded-xl py-4 px-2
+                               font-medium transition-colors text-center">
+                    <span class="block text-2xl mb-1">📄</span>
+                    Word (DOCX)
+                </button>
+                <button onclick="convertFile('xlsx')"
+                        class="convert-btn bg-green-500 hover:bg-green-600 text-white rounded-xl py-4 px-2
+                               font-medium transition-colors text-center">
+                    <span class="block text-2xl mb-1">📊</span>
+                    Excel (XLSX)
+                </button>
+                <button onclick="convertFile('image')"
+                        class="convert-btn bg-purple-500 hover:bg-purple-600 text-white rounded-xl py-4 px-2
+                               font-medium transition-colors text-center">
+                    <span class="block text-2xl mb-1">🖼️</span>
+                    Image (PNG)
+                </button>
+                <button onclick="convertFile('txt')"
+                        class="convert-btn bg-yellow-500 hover:bg-yellow-600 text-white rounded-xl py-4 px-2
+                               font-medium transition-colors text-center">
+                    <span class="block text-2xl mb-1">📝</span>
+                    Text (TXT)
+                </button>
+                <button onclick="convertFile('html')"
+                        class="convert-btn bg-red-500 hover:bg-red-600 text-white rounded-xl py-4 px-2
+                               font-medium transition-colors text-center">
+                    <span class="block text-2xl mb-1">🌐</span>
+                    HTML
+                </button>
+            </div>
+            <div id="conversion-progress" class="hidden mt-6 space-y-3">
+                <div class="flex items-center justify-center space-x-2">
+                    <svg class="animate-spin h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                    </svg>
+                    <span id="convert-status" class="text-gray-600">Converting...</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="convert-bar" class="bg-blue-600 h-2.5 rounded-full transition-all" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download section -->
+        <div id="download-section" class="hidden bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">Download</h2>
+            <div class="flex items-center justify-between p-4 bg-green-50 rounded-xl border border-green-200">
+                <div>
+                    <p id="download-filename" class="font-medium text-green-800"></p>
+                    <p id="download-format" class="text-sm text-green-600"></p>
+                </div>
+                <a id="download-link"
+                   class="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700
+                          text-white font-medium rounded-lg transition-colors"
+                   download>
+                    <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Download
+                </a>
+            </div>
+        </div>
+
+        <!-- Error display -->
+        <div id="error-section" class="hidden bg-red-50 border border-red-200 rounded-xl p-4 mb-8">
+            <p id="error-message" class="text-red-700"></p>
+        </div>
+
+        <footer class="text-center text-sm text-gray-400 mt-8">
+            PDF Converter &mdash; Built with FastAPI + Tailwind CSS
+        </footer>
+    </div>
+
+    <script>
+        let currentFilename = '';
+        const API = '/api';
+
+        document.getElementById('file-input').addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+        document.getElementById('upload-area').addEventListener('click', function(e) {
+            if (e.target.tagName !== 'INPUT') {
+                document.getElementById('file-input').click();
+            }
+        });
+
+        function handleDrop(event) {
+            const file = event.dataTransfer.files[0];
+            if (file) uploadFile(file);
+        }
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (file) uploadFile(file);
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('#conversion-section, #download-section, #error-section').forEach(el => {
+                el.classList.add('hidden');
+            });
+            const el = document.getElementById(id);
+            if (el) el.classList.remove('hidden');
+        }
+
+        function setUploadProgress(pct, status) {
+            document.getElementById('upload-bar').style.width = pct + '%';
+            document.getElementById('upload-status').textContent = status;
+        }
+
+        async function uploadFile(file) {
+            if (!file.name.toLowerCase().endsWith('.pdf')) {
+                showError('Only PDF files are allowed.');
+                return;
+            }
+            if (file.size > 100 * 1024 * 1024) {
+                showError('File exceeds 100MB limit.');
+                return;
+            }
+
+            document.getElementById('upload-placeholder').classList.add('hidden');
+            document.getElementById('upload-success').classList.add('hidden');
+            document.getElementById('upload-progress').classList.remove('hidden');
+            showSection(null);
+            setUploadProgress(10, 'Uploading...');
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                const resp = await fetch(`${API}/upload`, { method: 'POST', body: formData });
+                setUploadProgress(80, 'Processing...');
+                const data = await resp.json();
+
+                if (!resp.ok) {
+                    throw new Error(data.detail || 'Upload failed');
+                }
+
+                setUploadProgress(100, 'Done!');
+                await new Promise(r => setTimeout(r, 500));
+
+                document.getElementById('upload-progress').classList.add('hidden');
+                document.getElementById('upload-success').classList.remove('hidden');
+                document.getElementById('uploaded-filename').textContent = data.filename;
+                currentFilename = data.filename;
+                showSection('conversion-section');
+            } catch (err) {
+                setUploadProgress(100, 'Failed');
+                await new Promise(r => setTimeout(r, 500));
+                document.getElementById('upload-progress').classList.add('hidden');
+                document.getElementById('upload-placeholder').classList.remove('hidden');
+                showError(err.message);
+            }
+        }
+
+        async function convertFile(format) {
+            showSection(null);
+            document.getElementById('conversion-progress').classList.remove('hidden');
+            const statusEl = document.getElementById('convert-status');
+            const barEl = document.getElementById('convert-bar');
+            statusEl.textContent = 'Converting...';
+            barEl.style.width = '10%';
+
+            const formData = new FormData();
+            formData.append('filename', currentFilename);
+
+            try {
+                barEl.style.width = '50%';
+                const resp = await fetch(`${API}/convert/${format}`, { method: 'POST', body: formData });
+                barEl.style.width = '90%';
+                const data = await resp.json();
+
+                if (!resp.ok) {
+                    throw new Error(data.detail || 'Conversion failed');
+                }
+
+                barEl.style.width = '100%';
+                statusEl.textContent = 'Done!';
+                await new Promise(r => setTimeout(r, 500));
+
+                document.getElementById('conversion-progress').classList.add('hidden');
+
+                const formatNames = {
+                    docx: 'Word Document (.docx)',
+                    xlsx: 'Excel Spreadsheet (.xlsx)',
+                    image: 'PNG Image (.png)',
+                    txt: 'Text File (.txt)',
+                    html: 'HTML Document (.html)',
+                };
+
+                document.getElementById('download-filename').textContent = data.output_file.split('\\').pop().split('/').pop();
+                document.getElementById('download-format').textContent = formatNames[format] || format.toUpperCase();
+                document.getElementById('download-link').href = data.download_url;
+
+                showSection('download-section');
+            } catch (err) {
+                document.getElementById('conversion-progress').classList.add('hidden');
+                showError(err.message);
+            }
+        }
+
+        function showError(msg) {
+            document.getElementById('error-message').textContent = msg;
+            document.getElementById('error-section').classList.remove('hidden');
+            setTimeout(() => {
+                document.getElementById('error-section').classList.add('hidden');
+            }, 6000);
+        }
+    </script>
+</body>
+</html>

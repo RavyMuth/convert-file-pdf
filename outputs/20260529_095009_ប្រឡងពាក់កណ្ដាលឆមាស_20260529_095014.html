@@ -1,0 +1,115 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'>
+<title>PDF Conversion</title>
+<style>body{font-family:sans-serif;margin:2em;}.page{margin-bottom:2em;border-bottom:1px solid #ccc;padding-bottom:1em;}</style></head><body>
+<div class='page'>
+<h2>Page 1</h2>
+<pre>ប្រឡងពាក់កណ្ដាលឆមាស 
+ឈ្មោះ មុត រ៉ាវី 
+ជំនាញ៖ អភិវឌ្ឍន៍កមមវិធីកុំព្យូទ័រ និងទូរស័ព្ទដៃ 
+ជំនាន់ទី ១៦ 
+មុខវិជ្ជា៖ Machine Learning/AI 
+ចម្លើយ 
+១. Machine Learning ត្តូវបានបែងបែកជ្ជ ៤ ត្ែឈភទធំៗ ៃូែជ្ជ៖ 
+- 
+Supervised Learning 
+- 
+Unsupervised Learning 
+- 
+Reinforcement Learning 
+ 
+២. វៃតដនការឈធវើ Machine Learning 
+វៃតមូលដ្ឋានរួមមានជំហានៃូែជ្ជ៖ 
+- 
+Data Collection (ការត្ែមូលទិនន័យ)។ 
+- 
+Data Preprocessing (ការឈរៀែែំ និងសមាាតទិនន័យ) ។ 
+- 
+Data Analysis (ការវិភាគទិនន័យ EDA) ។ 
+- 
+Model Training (ការែងវឹក Model) ។ 
+- 
+Model Evaluation (ការវាយតដមៃ Model) ។ 
+- 
+Model Deployment (ការដ្ឋក់ឱ្យឈត្ែើត្បាស់) ។ 
+- 
+Monitoring & Maintenance (ការតាមដ្ឋន និងបែទំ) ។ 
+ 
+៣. ឈ្មោះ Algorithms កនុង Machine Learning (៥ ឈ្មោះ) 
+- 
+Linear Regression 
+- 
+Logistic Regression 
+- 
+Decision Tree 
+- 
+K-Nearest Neighbors (KNN) 
+- 
+K-Means Clustering 
+ 
+ 
+</pre>
+</div>
+<div class='page'>
+<h2>Page 2</h2>
+<pre>៤. Numpy (Numerical Python) គឺជ្ជ Library រែស់ Python សត្មាែ់ឈធវើការជ្ជមួយអាឈរ (Arrays) 
+ធំៗ និងមានមុខងារគណនាបននកគណិតវិទាកត្មិតខពស់។ 
+ឈ្មោះ Methods ឬ Functions កនុង Numpy ១៥ ឈ្មោះ៖ 
+១. np.array()  
+២. np.zeros()  
+៣. np.ones()  
+៤. np.arange()  
+៥. np.linspace()  
+៦. np.reshape()  
+៧. np.dot()  
+៨. np.sum()  
+៩. np.mean()  
+១០. np.median()  
+១១. np.std()  
+១២. np.min()  
+១៣. np.max()  
+១៤. np.transpose()  
+១៥. np.concatenate() 
+ 
+៥. ឃ្លៃទី១៖  
+from sklearn.cluster import KMeans៖ ទញយក (Import) ម៉ាូឌ្ុល KMeans ព្ី Library scikit-
+learn ឈៃើមបីយកមកឈត្ែើត្បាស់សត្មាែ់ការឈធវើ Clustering ។   
+import pandas as pd៖ ទញយក Library pandas ឈដ្ឋយដ្ឋក់ឈ្មោះឈៅឈត្ៅថា pd សត្មាែ់
+ត្គែ់ត្គង និងវិភាគទិនន័យ ។   
+df=pd.read_csv('customers.csv')៖ អានឯកសារទិនន័យត្ែឈភទ CSV បៃលមានឈ្មោះថា 
+customers.csv រួែរកាទុកវាឈៅកនុងែបត្មែត្មួល (Variable) ឈ្មោះ df (DataFrame) ។   
+print(df)៖ ែងាាញទិនន័យទំងអស់បៃលបានអានព្ីឯកសារ CSV ឈនាោះឈៅឈលើ Screen ។ 
+ 
+ 
+</pre>
+</div>
+<div class='page'>
+<h2>Page 3</h2>
+<pre>ឃ្លៃទី២៖ 
+  X=df.drop('CustomerID', axis=1)៖ លុែជួរឈរ (Column) បៃលមានឈ្មោះថា 'CustomerID' 
+ឈែញព្ី DataFrame df ឈត្រោះអតតសញ្ញាណ ID មិនបមនជ្ជលកខណៈព្ិឈសស (Feature) សត្មាែ់យក
+ឈៅែងវឹក Model ឱ្យែងត្កុមឈ ើយ ($axis=1$ មានន័យថាឈធវើការឈៅឈលើជួរឈរ)។ លទធនលបៃលឈៅ
+សល់ត្តូវបានរកាទុកកនុងត្ែថាែ់ X ។  
+  print(X)៖ ែងាាញទិនន័យ X បៃលបានលុែ Column 'CustomerID' រួែរល់។ 
+ 
+ឃ្លៃទី៣៖ 
+model=KMeans(n_clusters =3, random_state =42)៖ ែឈងកើត Object រែស់ KMeans Model 
+ឈដ្ឋយកំណត់ែំនួនត្កុមបៃលែង់ែងគឺ ៣ ត្កុម (n_clusters=3) និងកំណត់ random_state=42 ឈៃើមបី
+ធានាថាការរត់កូៃឈៅឈព្លឈត្កាយៗឈទៀតនឹងនតល់លទធនលៃបៃល (មិនបត្ែត្ែួលដែៃនយ) ។  
+label=model.fit_predict(X)៖ ែញ្ាូនទិនន័យ X ឈៅឱ្យ Model ឈធវើការគណនាបែងបែកត្កុមនង និង
+ទញយកលទធនលដនត្កុម (Labels ៃូែជ្ជ $0, 1, 2$) មកលាក់ទុកកនុង Variable ឈ្មោះ label នង។  
+print(label)៖ ែងាាញលទធនលត្កុមបៃលទសសន៍ទយបានសត្មាែ់រល់អតិែិជននីមួយៗ (ែងាាញជ្ជ 
+Array ដនឈលខត្កុម) ។ 
+ 
+ឃ្លៃទី៤៖ 
+df['Cluster']=label៖ ែឈងកើតជួរឈរែមីមួយឈ្មោះថា 'Cluster' ឈៅកនុង DataFrame df ឈៃើម ឈដ្ឋយ
+ដ្ឋក់តដមៃជ្ជឈលខត្កុម (label) បៃលឈទើែនឹងទទួលបានព្ី Model ។   
+print(df)៖ ែងាាញទិនន័យ df សារជ្ជែមី បៃលឈព្លឈនោះមានែបនែមជួរឈរត្កុមអតិែិជន (Cluster) ឈៅ
+ខាងែុង ។   
+df_sort=df.sort_values(by='Cluster')៖ ឈរៀែែំលំដ្ឋែ់លំឈដ្ឋយទិនន័យ (Sort) ឈៅកនុង 
+DataFrame ឈ ើងវិញ ឈដ្ឋយបនាកឈលើតដមៃឈៅកនុងជួរឈរ 'Cluster' (ព្ីត្កុមទី 0 ៃល់ទី 2) រួែរកាទុក
+កនុង df_sort  biographies។   
+print(df_sort)៖ ែងាាញទិនន័យបៃលបានឈរៀែតាមលំដ្ឋែ់ត្កុមរួែរល់ ឈៃើមបីងាយត្សួលឈមើលអតិែិជន
+ឈៅកនុងត្កុមជ្ជមួយគ្នន ។ 
+</pre>
+</div>
+</body></html>

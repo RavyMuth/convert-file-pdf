@@ -1,0 +1,497 @@
+2026-05-29 09:40:38,023 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 09:40:38,023 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 09:40:38,023 [INFO] app.main: PDF Converter API started
+2026-05-29 09:40:57,836 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_094057_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:41:02,071 [ERROR] app.routes.converter: Conversion failed: DOCX conversion failed: No module named 'pdf2docx'
+2026-05-29 09:42:05,592 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_094205_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:42:10,713 [ERROR] app.routes.converter: Conversion failed: Text conversion failed: No module named 'fitz'
+2026-05-29 09:44:30,960 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 09:44:30,961 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 09:44:30,961 [INFO] app.main: PDF Converter API started
+2026-05-29 09:44:43,947 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_094443_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:44:47,712 [ERROR] app.routes.converter: Conversion failed: DOCX conversion failed: No module named 'pdf2docx'
+2026-05-29 09:50:09,944 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095009_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:50:19,760 [INFO] app.services.converter_service: PDF -> HTML: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_095009_ប្រឡងពាក់កណ្ដាលឆមាស_20260529_095014.html
+2026-05-29 09:50:19,762 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095009_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:50:50,202 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095050_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:50:57,374 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095050_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:50:57,376 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 09:50:57,376 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 09:50:58,577 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 09:50:58,578 [INFO] root: (1/3) Page 1
+2026-05-29 09:50:58,606 [INFO] root: (2/3) Page 2
+2026-05-29 09:50:58,622 [INFO] root: (3/3) Page 3
+2026-05-29 09:50:58,636 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 09:50:58,671 [INFO] root: (1/3) Page 1
+2026-05-29 09:50:58,758 [INFO] root: (2/3) Page 2
+2026-05-29 09:50:58,789 [INFO] root: (3/3) Page 3
+2026-05-29 09:50:58,845 [INFO] root: Terminated in 1.47s.
+2026-05-29 09:50:58,846 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_095050_ប្រឡងពាក់កណ្ដាលឆមាស_20260529_095052.docx
+2026-05-29 09:50:58,847 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095050_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:51:56,249 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 09:51:56,249 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 09:51:56,250 [INFO] app.main: PDF Converter API started
+2026-05-29 09:52:24,869 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095224_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:52:45,160 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095224_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 09:52:45,161 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 09:52:45,161 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 09:52:45,507 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 09:52:45,508 [INFO] root: (1/3) Page 1
+2026-05-29 09:52:45,535 [INFO] root: (2/3) Page 2
+2026-05-29 09:52:45,551 [INFO] root: (3/3) Page 3
+2026-05-29 09:52:45,563 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 09:52:45,580 [INFO] root: (1/3) Page 1
+2026-05-29 09:52:45,655 [INFO] root: (2/3) Page 2
+2026-05-29 09:52:45,695 [INFO] root: (3/3) Page 3
+2026-05-29 09:52:45,754 [INFO] root: Terminated in 0.59s.
+2026-05-29 09:52:45,755 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_095224_ប្រឡងពាក់កណ្ដាលឆមាស_20260529_095244.docx
+2026-05-29 09:52:45,755 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_095224_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 10:15:43,666 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_101543_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 10:15:45,494 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_101543_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 10:15:45,495 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:15:45,496 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:15:45,827 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:15:45,828 [INFO] root: (1/3) Page 1
+2026-05-29 10:15:45,855 [INFO] root: (2/3) Page 2
+2026-05-29 10:15:45,870 [INFO] root: (3/3) Page 3
+2026-05-29 10:15:45,882 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:15:45,902 [INFO] root: (1/3) Page 1
+2026-05-29 10:15:45,974 [INFO] root: (2/3) Page 2
+2026-05-29 10:15:46,005 [INFO] root: (3/3) Page 3
+2026-05-29 10:15:46,059 [INFO] root: Terminated in 0.56s.
+2026-05-29 10:15:46,060 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_101543_ប្រឡងពាក់កណ្ដាលឆមាស_20260529_101545.docx
+2026-05-29 10:15:46,061 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_101543_ប្រឡងពាក់កណ្ដាលឆមាស.pdf
+2026-05-29 10:18:33,808 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_101833_Student Result management system.pdf
+2026-05-29 10:18:40,896 [INFO] app.services.converter_service: PDF -> IMAGE: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_101833_Student Result management system_20260529_101837_page1.png
+2026-05-29 10:18:40,900 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_101833_Student Result management system.pdf
+2026-05-29 10:23:12,960 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:23:12,960 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:23:12,960 [INFO] app.main: PDF Converter API started
+2026-05-29 10:23:27,970 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102327_Student Result management system.pdf
+2026-05-29 10:23:30,237 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102327_Student Result management system.pdf
+2026-05-29 10:23:30,237 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:23:30,238 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:23:33,189 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:23:33,189 [INFO] root: (1/9) Page 1
+2026-05-29 10:23:33,238 [INFO] root: (2/9) Page 2
+2026-05-29 10:23:33,268 [INFO] root: (3/9) Page 3
+2026-05-29 10:23:33,309 [INFO] root: (4/9) Page 4
+2026-05-29 10:23:33,366 [INFO] root: (5/9) Page 5
+2026-05-29 10:23:33,605 [INFO] root: (6/9) Page 6
+2026-05-29 10:23:33,660 [INFO] root: (7/9) Page 7
+2026-05-29 10:23:33,809 [INFO] root: (8/9) Page 8
+2026-05-29 10:23:33,856 [INFO] root: (9/9) Page 9
+2026-05-29 10:23:33,911 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:23:33,929 [INFO] root: (1/9) Page 1
+2026-05-29 10:23:34,033 [INFO] root: (2/9) Page 2
+2026-05-29 10:23:34,096 [INFO] root: (3/9) Page 3
+2026-05-29 10:23:34,168 [INFO] root: (4/9) Page 4
+2026-05-29 10:23:34,247 [INFO] root: (5/9) Page 5
+2026-05-29 10:23:34,789 [INFO] root: (6/9) Page 6
+2026-05-29 10:23:34,912 [INFO] root: (7/9) Page 7
+2026-05-29 10:23:34,983 [INFO] root: (8/9) Page 8
+2026-05-29 10:23:35,051 [INFO] root: (9/9) Page 9
+2026-05-29 10:23:35,175 [INFO] root: Terminated in 4.94s.
+2026-05-29 10:23:35,176 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102327_Student Result management system_20260529_102329.docx
+2026-05-29 10:23:35,177 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102327_Student Result management system.pdf
+2026-05-29 10:24:18,178 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:24:18,179 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:24:18,179 [INFO] app.main: PDF Converter API started
+2026-05-29 10:25:03,452 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:25:03,453 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:25:03,453 [INFO] app.main: PDF Converter API started
+2026-05-29 10:25:26,184 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102526_Student Result management system.pdf
+2026-05-29 10:25:28,488 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102526_Student Result management system.pdf
+2026-05-29 10:25:28,489 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:25:28,489 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:25:31,362 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:25:31,363 [INFO] root: (1/9) Page 1
+2026-05-29 10:25:31,410 [INFO] root: (2/9) Page 2
+2026-05-29 10:25:31,439 [INFO] root: (3/9) Page 3
+2026-05-29 10:25:31,483 [INFO] root: (4/9) Page 4
+2026-05-29 10:25:31,551 [INFO] root: (5/9) Page 5
+2026-05-29 10:25:31,802 [INFO] root: (6/9) Page 6
+2026-05-29 10:25:31,854 [INFO] root: (7/9) Page 7
+2026-05-29 10:25:31,949 [INFO] root: (8/9) Page 8
+2026-05-29 10:25:31,997 [INFO] root: (9/9) Page 9
+2026-05-29 10:25:32,052 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:25:32,068 [INFO] root: (1/9) Page 1
+2026-05-29 10:25:32,139 [INFO] root: (2/9) Page 2
+2026-05-29 10:25:32,200 [INFO] root: (3/9) Page 3
+2026-05-29 10:25:32,273 [INFO] root: (4/9) Page 4
+2026-05-29 10:25:32,354 [INFO] root: (5/9) Page 5
+2026-05-29 10:25:32,909 [INFO] root: (6/9) Page 6
+2026-05-29 10:25:33,039 [INFO] root: (7/9) Page 7
+2026-05-29 10:25:33,109 [INFO] root: (8/9) Page 8
+2026-05-29 10:25:33,184 [INFO] root: (9/9) Page 9
+2026-05-29 10:25:33,304 [INFO] root: Terminated in 4.82s.
+2026-05-29 10:25:33,305 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102526_Student Result management system_20260529_102528.docx
+2026-05-29 10:25:33,306 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102526_Student Result management system.pdf
+2026-05-29 10:26:18,182 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102618_Student Result management system.pdf
+2026-05-29 10:26:23,807 [INFO] app.services.converter_service: PDF -> IMAGE: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102618_Student Result management system_20260529_102620_page1.png
+2026-05-29 10:26:23,810 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102618_Student Result management system.pdf
+2026-05-29 10:27:13,833 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102713_Student Result management system.pdf
+2026-05-29 10:27:17,789 [INFO] app.services.converter_service: PDF -> HTML: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102713_Student Result management system_20260529_102717.html
+2026-05-29 10:27:17,790 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102713_Student Result management system.pdf
+2026-05-29 10:28:05,330 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102805_Student Result management system.pdf
+2026-05-29 10:28:09,399 [INFO] app.services.converter_service: PDF -> TEXT: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102805_Student Result management system_20260529_102809.txt
+2026-05-29 10:28:09,400 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102805_Student Result management system.pdf
+2026-05-29 10:28:33,865 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102833_Student Result management system.pdf
+2026-05-29 10:28:56,550 [INFO] app.services.converter_service: PDF -> EXCEL: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_102833_Student Result management system_20260529_102835.xlsx
+2026-05-29 10:28:56,551 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_102833_Student Result management system.pdf
+2026-05-29 10:31:55,255 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:31:55,256 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:31:55,256 [INFO] app.main: PDF Converter API started
+2026-05-29 10:31:59,344 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:31:59,344 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:31:59,344 [INFO] app.main: PDF Converter API started
+2026-05-29 10:32:03,647 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:32:03,647 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:32:03,647 [INFO] app.main: PDF Converter API started
+2026-05-29 10:32:11,192 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:32:11,193 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:32:11,193 [INFO] app.main: PDF Converter API started
+2026-05-29 10:32:20,550 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:32:20,550 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:32:20,551 [INFO] app.main: PDF Converter API started
+2026-05-29 10:34:13,913 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:34:13,913 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:34:13,913 [INFO] app.main: PDF Converter API started
+2026-05-29 10:37:23,124 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:37:23,124 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:37:23,124 [INFO] app.main: PDF Converter API started
+2026-05-29 10:37:31,856 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:37:31,856 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:37:31,856 [INFO] app.main: PDF Converter API started
+2026-05-29 10:37:39,598 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:37:39,598 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:37:39,598 [INFO] app.main: PDF Converter API started
+2026-05-29 10:38:27,368 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:38:27,368 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:38:27,368 [INFO] app.main: PDF Converter API started
+2026-05-29 10:40:13,324 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:40:13,324 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:40:13,325 [INFO] app.main: PDF Converter API started
+2026-05-29 10:41:41,151 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104141_Final (3).pdf
+2026-05-29 10:41:44,330 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104141_Final (3).pdf
+2026-05-29 10:41:44,330 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:41:44,332 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:41:44,541 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'created' timestamp seems very low; regarding as unix timestamp
+2026-05-29 10:41:44,542 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'modified' timestamp seems very low; regarding as unix timestamp
+2026-05-29 10:41:45,406 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:41:45,407 [INFO] root: (1/23) Page 1
+2026-05-29 10:41:45,410 [INFO] root: (2/23) Page 2
+2026-05-29 10:41:45,440 [INFO] root: (3/23) Page 3
+2026-05-29 10:41:45,449 [INFO] root: (4/23) Page 4
+2026-05-29 10:41:45,453 [INFO] root: (5/23) Page 5
+2026-05-29 10:41:45,462 [INFO] root: (6/23) Page 6
+2026-05-29 10:41:45,492 [INFO] root: (7/23) Page 7
+2026-05-29 10:41:45,504 [INFO] root: (8/23) Page 8
+2026-05-29 10:41:45,540 [INFO] root: (9/23) Page 9
+2026-05-29 10:41:45,556 [INFO] root: (10/23) Page 10
+2026-05-29 10:41:45,593 [INFO] root: (11/23) Page 11
+2026-05-29 10:41:45,594 [INFO] root: (12/23) Page 12
+2026-05-29 10:41:45,597 [INFO] root: (13/23) Page 13
+2026-05-29 10:41:45,599 [INFO] root: (14/23) Page 14
+2026-05-29 10:41:45,610 [INFO] root: (15/23) Page 15
+2026-05-29 10:41:45,664 [INFO] root: (16/23) Page 16
+2026-05-29 10:41:45,702 [INFO] root: (17/23) Page 17
+2026-05-29 10:41:45,747 [INFO] root: (18/23) Page 18
+2026-05-29 10:41:45,757 [INFO] root: (19/23) Page 19
+2026-05-29 10:41:45,765 [INFO] root: (20/23) Page 20
+2026-05-29 10:41:45,775 [INFO] root: (21/23) Page 21
+2026-05-29 10:41:45,784 [INFO] root: (22/23) Page 22
+2026-05-29 10:41:45,795 [INFO] root: (23/23) Page 23
+2026-05-29 10:41:45,806 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:41:45,855 [INFO] root: (1/23) Page 1
+2026-05-29 10:41:45,872 [INFO] root: (2/23) Page 2
+2026-05-29 10:41:45,993 [INFO] root: (3/23) Page 3
+2026-05-29 10:41:46,016 [INFO] root: (4/23) Page 4
+2026-05-29 10:41:46,026 [INFO] root: (5/23) Page 5
+2026-05-29 10:41:46,055 [INFO] root: (6/23) Page 6
+2026-05-29 10:41:46,098 [INFO] root: (7/23) Page 7
+2026-05-29 10:41:46,136 [INFO] root: (8/23) Page 8
+2026-05-29 10:41:46,162 [INFO] root: (9/23) Page 9
+2026-05-29 10:41:46,179 [INFO] root: (10/23) Page 10
+2026-05-29 10:41:46,224 [INFO] root: (11/23) Page 11
+2026-05-29 10:41:46,226 [INFO] root: (12/23) Page 12
+2026-05-29 10:41:46,230 [INFO] root: (13/23) Page 13
+2026-05-29 10:41:46,236 [INFO] root: (14/23) Page 14
+2026-05-29 10:41:46,268 [INFO] root: (15/23) Page 15
+2026-05-29 10:41:46,334 [INFO] root: (16/23) Page 16
+2026-05-29 10:41:46,409 [INFO] root: (17/23) Page 17
+2026-05-29 10:41:46,481 [INFO] root: (18/23) Page 18
+2026-05-29 10:41:46,500 [INFO] root: (19/23) Page 19
+2026-05-29 10:41:46,511 [INFO] root: (20/23) Page 20
+2026-05-29 10:41:46,522 [INFO] root: (21/23) Page 21
+2026-05-29 10:41:46,534 [INFO] root: (22/23) Page 22
+2026-05-29 10:41:46,545 [INFO] root: (23/23) Page 23
+2026-05-29 10:41:46,594 [INFO] root: Terminated in 2.26s.
+2026-05-29 10:41:46,597 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_104141_Final (3)_20260529_104143.docx
+2026-05-29 10:41:46,599 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104141_Final (3).pdf
+2026-05-29 10:42:34,868 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104234_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127.pdf
+2026-05-29 10:42:36,537 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104234_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127.pdf
+2026-05-29 10:42:36,537 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:42:36,538 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:42:40,323 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:42:40,324 [INFO] root: (1/5) Page 1
+2026-05-29 10:42:41,479 [INFO] root: (2/5) Page 2
+2026-05-29 10:42:42,615 [INFO] root: (3/5) Page 3
+2026-05-29 10:42:43,764 [INFO] root: (4/5) Page 4
+2026-05-29 10:42:44,337 [INFO] root: (5/5) Page 5
+2026-05-29 10:42:44,338 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:42:44,352 [INFO] root: (1/5) Page 1
+2026-05-29 10:42:48,831 [INFO] root: (2/5) Page 2
+2026-05-29 10:42:53,575 [INFO] root: (3/5) Page 3
+2026-05-29 10:42:58,352 [INFO] root: (4/5) Page 4
+2026-05-29 10:43:00,714 [INFO] root: (5/5) Page 5
+2026-05-29 10:43:00,756 [INFO] root: Terminated in 24.22s.
+2026-05-29 10:43:00,759 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_104234_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127_20260529_104236.docx
+2026-05-29 10:43:00,760 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104234_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127.pdf
+2026-05-29 10:44:28,870 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:44:28,870 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:44:28,871 [INFO] app.main: PDF Converter API started
+2026-05-29 10:44:35,281 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:44:35,281 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:44:35,281 [INFO] app.main: PDF Converter API started
+2026-05-29 10:44:58,702 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:44:58,746 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:44:58,747 [INFO] app.main: PDF Converter API started
+2026-05-29 10:45:13,302 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:45:13,302 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:45:13,302 [INFO] app.main: PDF Converter API started
+2026-05-29 10:46:53,248 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104653_Final-report.pdf
+2026-05-29 10:46:55,207 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104653_Final-report.pdf
+2026-05-29 10:46:55,208 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:46:55,208 [ERROR] app.routes.converter: Conversion failed: DOCX conversion failed: Require password for C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104653_Final-report.pdf.
+2026-05-29 10:47:22,209 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104722_Final (4).pdf
+2026-05-29 10:47:23,960 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104722_Final (4).pdf
+2026-05-29 10:47:23,960 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 10:47:23,961 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 10:47:24,407 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'created' timestamp seems very low; regarding as unix timestamp
+2026-05-29 10:47:24,407 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'modified' timestamp seems very low; regarding as unix timestamp
+2026-05-29 10:47:29,112 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 10:47:29,112 [INFO] root: (1/47) Page 1
+2026-05-29 10:47:29,116 [INFO] root: (2/47) Page 2
+2026-05-29 10:47:29,122 [INFO] root: (3/47) Page 3
+2026-05-29 10:47:29,130 [INFO] root: (4/47) Page 4
+2026-05-29 10:47:29,132 [INFO] root: (5/47) Page 5
+2026-05-29 10:47:29,141 [INFO] root: (6/47) Page 6
+2026-05-29 10:47:29,155 [INFO] root: (7/47) Page 7
+2026-05-29 10:47:29,172 [INFO] root: (8/47) Page 8
+2026-05-29 10:47:29,178 [INFO] root: (9/47) Page 9
+2026-05-29 10:47:29,185 [INFO] root: (10/47) Page 10
+2026-05-29 10:47:29,211 [INFO] root: (11/47) Page 11
+2026-05-29 10:47:29,223 [INFO] root: (12/47) Page 12
+2026-05-29 10:47:29,237 [INFO] root: (13/47) Page 13
+2026-05-29 10:47:29,415 [INFO] root: (14/47) Page 14
+2026-05-29 10:47:29,553 [INFO] root: (15/47) Page 15
+2026-05-29 10:47:29,579 [INFO] root: (16/47) Page 16
+2026-05-29 10:47:29,600 [INFO] root: (17/47) Page 17
+2026-05-29 10:47:29,640 [INFO] root: (18/47) Page 18
+2026-05-29 10:47:29,653 [INFO] root: (19/47) Page 19
+2026-05-29 10:47:29,682 [INFO] root: (20/47) Page 20
+2026-05-29 10:47:29,710 [INFO] root: (21/47) Page 21
+2026-05-29 10:47:29,751 [INFO] root: (22/47) Page 22
+2026-05-29 10:47:29,780 [INFO] root: (23/47) Page 23
+2026-05-29 10:47:29,792 [INFO] root: (24/47) Page 24
+2026-05-29 10:47:29,807 [INFO] root: (25/47) Page 25
+2026-05-29 10:47:29,828 [INFO] root: (26/47) Page 26
+2026-05-29 10:47:29,840 [INFO] root: (27/47) Page 27
+2026-05-29 10:47:29,875 [INFO] root: (28/47) Page 28
+2026-05-29 10:47:29,895 [INFO] root: (29/47) Page 29
+2026-05-29 10:47:29,919 [INFO] root: (30/47) Page 30
+2026-05-29 10:47:29,960 [INFO] root: (31/47) Page 31
+2026-05-29 10:47:30,008 [INFO] root: (32/47) Page 32
+2026-05-29 10:47:30,037 [INFO] root: (33/47) Page 33
+2026-05-29 10:47:30,151 [INFO] root: (34/47) Page 34
+2026-05-29 10:47:30,178 [INFO] root: (35/47) Page 35
+2026-05-29 10:47:30,212 [INFO] root: (36/47) Page 36
+2026-05-29 10:47:30,331 [INFO] root: (37/47) Page 37
+2026-05-29 10:47:30,356 [INFO] root: (38/47) Page 38
+2026-05-29 10:47:30,376 [INFO] root: (39/47) Page 39
+2026-05-29 10:47:30,384 [INFO] root: (40/47) Page 40
+2026-05-29 10:47:30,392 [INFO] root: (41/47) Page 41
+2026-05-29 10:47:30,403 [INFO] root: (42/47) Page 42
+2026-05-29 10:47:30,419 [INFO] root: (43/47) Page 43
+2026-05-29 10:47:30,424 [INFO] root: (44/47) Page 44
+2026-05-29 10:47:30,449 [INFO] root: (45/47) Page 45
+2026-05-29 10:47:30,474 [INFO] root: (46/47) Page 46
+2026-05-29 10:47:30,502 [INFO] root: (47/47) Page 47
+2026-05-29 10:47:30,506 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 10:47:30,522 [INFO] root: (1/47) Page 1
+2026-05-29 10:47:30,539 [INFO] root: (2/47) Page 2
+2026-05-29 10:47:30,569 [INFO] root: (3/47) Page 3
+2026-05-29 10:47:30,603 [INFO] root: (4/47) Page 4
+2026-05-29 10:47:30,612 [INFO] root: (5/47) Page 5
+2026-05-29 10:47:30,640 [INFO] root: (6/47) Page 6
+2026-05-29 10:47:30,677 [INFO] root: (7/47) Page 7
+2026-05-29 10:47:30,709 [INFO] root: (8/47) Page 8
+2026-05-29 10:47:30,728 [INFO] root: (9/47) Page 9
+2026-05-29 10:47:30,747 [INFO] root: (10/47) Page 10
+2026-05-29 10:47:30,791 [INFO] root: (11/47) Page 11
+2026-05-29 10:47:30,837 [INFO] root: (12/47) Page 12
+2026-05-29 10:47:30,888 [INFO] root: (13/47) Page 13
+2026-05-29 10:47:31,363 [INFO] root: (14/47) Page 14
+2026-05-29 10:47:31,823 [INFO] root: (15/47) Page 15
+2026-05-29 10:47:31,867 [INFO] root: (16/47) Page 16
+2026-05-29 10:47:31,928 [INFO] root: (17/47) Page 17
+2026-05-29 10:47:31,992 [INFO] root: (18/47) Page 18
+2026-05-29 10:47:32,043 [INFO] root: (19/47) Page 19
+2026-05-29 10:47:32,180 [INFO] root: (20/47) Page 20
+2026-05-29 10:47:32,271 [INFO] root: (21/47) Page 21
+2026-05-29 10:47:32,428 [INFO] root: (22/47) Page 22
+2026-05-29 10:47:32,503 [INFO] root: (23/47) Page 23
+2026-05-29 10:47:32,560 [INFO] root: (24/47) Page 24
+2026-05-29 10:47:32,634 [INFO] root: (25/47) Page 25
+2026-05-29 10:47:32,729 [INFO] root: (26/47) Page 26
+2026-05-29 10:47:32,795 [INFO] root: (27/47) Page 27
+2026-05-29 10:47:32,928 [INFO] root: (28/47) Page 28
+2026-05-29 10:47:33,025 [INFO] root: (29/47) Page 29
+2026-05-29 10:47:33,120 [INFO] root: (30/47) Page 30
+2026-05-29 10:47:33,227 [INFO] root: (31/47) Page 31
+2026-05-29 10:47:33,290 [INFO] root: (32/47) Page 32
+2026-05-29 10:47:33,353 [INFO] root: (33/47) Page 33
+2026-05-29 10:47:33,811 [INFO] root: (34/47) Page 34
+2026-05-29 10:47:33,871 [INFO] root: (35/47) Page 35
+2026-05-29 10:47:33,932 [INFO] root: (36/47) Page 36
+2026-05-29 10:47:34,170 [INFO] root: (37/47) Page 37
+2026-05-29 10:47:34,252 [INFO] root: (38/47) Page 38
+2026-05-29 10:47:34,355 [INFO] root: (39/47) Page 39
+2026-05-29 10:47:34,401 [INFO] root: (40/47) Page 40
+2026-05-29 10:47:34,453 [INFO] root: (41/47) Page 41
+2026-05-29 10:47:34,504 [INFO] root: (42/47) Page 42
+2026-05-29 10:47:34,568 [INFO] root: (43/47) Page 43
+2026-05-29 10:47:34,594 [INFO] root: (44/47) Page 44
+2026-05-29 10:47:34,667 [INFO] root: (45/47) Page 45
+2026-05-29 10:47:34,739 [INFO] root: (46/47) Page 46
+2026-05-29 10:47:34,778 [INFO] root: (47/47) Page 47
+2026-05-29 10:47:35,155 [INFO] root: Terminated in 11.19s.
+2026-05-29 10:47:35,159 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_104722_Final (4)_20260529_104723.docx
+2026-05-29 10:47:35,161 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_104722_Final (4).pdf
+2026-05-29 10:50:07,508 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:50:07,508 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:50:07,509 [INFO] app.main: PDF Converter API started
+2026-05-29 10:50:13,518 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:50:13,518 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:50:13,518 [INFO] app.main: PDF Converter API started
+2026-05-29 10:50:21,278 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:50:21,278 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:50:21,279 [INFO] app.main: PDF Converter API started
+2026-05-29 10:50:25,526 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:50:25,526 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:50:25,527 [INFO] app.main: PDF Converter API started
+2026-05-29 10:53:44,285 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 10:53:44,285 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 10:53:44,285 [INFO] app.main: PDF Converter API started
+2026-05-29 10:53:53,132 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105353_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127.pdf
+2026-05-29 10:53:55,156 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_105353_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127_20260529_105354.docx
+2026-05-29 10:53:55,157 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105353_ការចុះឈ្មោះចូលរួមវគ្គបណ្តុះបណ្តាលAi_ខេត្តបន្ទាយមានជ័យ1_127.pdf
+2026-05-29 10:55:00,419 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105500_1_THE_FUNDAMENTALS_OF_COMPUTER_SECURITY (2).pdf
+2026-05-29 10:55:03,024 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_105500_1_THE_FUNDAMENTALS_OF_COMPUTER_SECURITY (2)_20260529_105501.docx
+2026-05-29 10:55:03,026 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105500_1_THE_FUNDAMENTALS_OF_COMPUTER_SECURITY (2).pdf
+2026-05-29 10:55:47,029 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105547_Student Result management system.pdf
+2026-05-29 10:55:49,147 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_105547_Student Result management system_20260529_105548.docx
+2026-05-29 10:55:49,148 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105547_Student Result management system.pdf
+2026-05-29 10:57:56,710 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105756_Student Result management system.pdf
+2026-05-29 10:57:58,192 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_105756_Student Result management system_20260529_105757.docx
+2026-05-29 10:57:58,193 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_105756_Student Result management system.pdf
+2026-05-29 11:00:19,804 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110019_Student Result management system.pdf
+2026-05-29 11:00:21,398 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_110019_Student Result management system_20260529_110021.docx
+2026-05-29 11:00:21,399 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110019_Student Result management system.pdf
+2026-05-29 11:01:24,667 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 11:01:24,667 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 11:01:24,667 [INFO] app.main: PDF Converter API started
+2026-05-29 11:01:44,965 [INFO] app.main: Upload dir: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 11:01:44,966 [INFO] app.main: Output dir: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 11:01:44,966 [INFO] app.main: PDF Converter API started
+2026-05-29 11:01:47,732 [INFO] app.main: Upload directory: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 11:01:47,732 [INFO] app.main: Output directory: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 11:01:47,732 [INFO] app.main: PDF Converter API started
+2026-05-29 11:07:09,768 [INFO] app.main: Upload directory: C:\Users\Ravy\Documents\pdf-converter\uploads
+2026-05-29 11:07:09,769 [INFO] app.main: Output directory: C:\Users\Ravy\Documents\pdf-converter\outputs
+2026-05-29 11:07:09,769 [INFO] app.main: PDF Converter API started
+2026-05-29 11:07:27,787 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110727_Student Result management system.pdf
+2026-05-29 11:07:30,120 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110727_Student Result management system.pdf
+2026-05-29 11:07:30,121 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 11:07:30,122 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 11:07:33,051 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 11:07:33,051 [INFO] root: (1/9) Page 1
+2026-05-29 11:07:33,101 [INFO] root: (2/9) Page 2
+2026-05-29 11:07:33,131 [INFO] root: (3/9) Page 3
+2026-05-29 11:07:33,170 [INFO] root: (4/9) Page 4
+2026-05-29 11:07:33,227 [INFO] root: (5/9) Page 5
+2026-05-29 11:07:33,470 [INFO] root: (6/9) Page 6
+2026-05-29 11:07:33,524 [INFO] root: (7/9) Page 7
+2026-05-29 11:07:33,616 [INFO] root: (8/9) Page 8
+2026-05-29 11:07:33,662 [INFO] root: (9/9) Page 9
+2026-05-29 11:07:33,716 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 11:07:33,747 [INFO] root: (1/9) Page 1
+2026-05-29 11:07:33,826 [INFO] root: (2/9) Page 2
+2026-05-29 11:07:33,888 [INFO] root: (3/9) Page 3
+2026-05-29 11:07:33,966 [INFO] root: (4/9) Page 4
+2026-05-29 11:07:34,045 [INFO] root: (5/9) Page 5
+2026-05-29 11:07:34,596 [INFO] root: (6/9) Page 6
+2026-05-29 11:07:34,720 [INFO] root: (7/9) Page 7
+2026-05-29 11:07:34,790 [INFO] root: (8/9) Page 8
+2026-05-29 11:07:34,865 [INFO] root: (9/9) Page 9
+2026-05-29 11:07:35,006 [INFO] root: Terminated in 4.89s.
+2026-05-29 11:07:35,007 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_110727_Student Result management system_20260529_110729.docx
+2026-05-29 11:07:35,008 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110727_Student Result management system.pdf
+2026-05-29 11:08:01,138 [INFO] app.utils.file_handler: Saved upload: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110801_Final (3).pdf
+2026-05-29 11:08:02,636 [INFO] root: Start to convert C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110801_Final (3).pdf
+2026-05-29 11:08:02,636 [INFO] root: [1;36m[1/4] Opening document...[0m
+2026-05-29 11:08:02,636 [INFO] root: [1;36m[2/4] Analyzing document...[0m
+2026-05-29 11:08:02,759 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'created' timestamp seems very low; regarding as unix timestamp
+2026-05-29 11:08:02,759 [WARNING] fontTools.ttLib.tables._h_e_a_d: 'modified' timestamp seems very low; regarding as unix timestamp
+2026-05-29 11:08:03,613 [INFO] root: [1;36m[3/4] Parsing pages...[0m
+2026-05-29 11:08:03,614 [INFO] root: (1/23) Page 1
+2026-05-29 11:08:03,619 [INFO] root: (2/23) Page 2
+2026-05-29 11:08:03,662 [INFO] root: (3/23) Page 3
+2026-05-29 11:08:03,670 [INFO] root: (4/23) Page 4
+2026-05-29 11:08:03,673 [INFO] root: (5/23) Page 5
+2026-05-29 11:08:03,682 [INFO] root: (6/23) Page 6
+2026-05-29 11:08:03,699 [INFO] root: (7/23) Page 7
+2026-05-29 11:08:03,705 [INFO] root: (8/23) Page 8
+2026-05-29 11:08:03,722 [INFO] root: (9/23) Page 9
+2026-05-29 11:08:03,730 [INFO] root: (10/23) Page 10
+2026-05-29 11:08:03,747 [INFO] root: (11/23) Page 11
+2026-05-29 11:08:03,747 [INFO] root: (12/23) Page 12
+2026-05-29 11:08:03,748 [INFO] root: (13/23) Page 13
+2026-05-29 11:08:03,748 [INFO] root: (14/23) Page 14
+2026-05-29 11:08:03,752 [INFO] root: (15/23) Page 15
+2026-05-29 11:08:03,777 [INFO] root: (16/23) Page 16
+2026-05-29 11:08:03,810 [INFO] root: (17/23) Page 17
+2026-05-29 11:08:03,840 [INFO] root: (18/23) Page 18
+2026-05-29 11:08:03,852 [INFO] root: (19/23) Page 19
+2026-05-29 11:08:03,860 [INFO] root: (20/23) Page 20
+2026-05-29 11:08:03,869 [INFO] root: (21/23) Page 21
+2026-05-29 11:08:03,878 [INFO] root: (22/23) Page 22
+2026-05-29 11:08:03,885 [INFO] root: (23/23) Page 23
+2026-05-29 11:08:03,891 [INFO] root: [1;36m[4/4] Creating pages...[0m
+2026-05-29 11:08:03,906 [INFO] root: (1/23) Page 1
+2026-05-29 11:08:03,923 [INFO] root: (2/23) Page 2
+2026-05-29 11:08:04,052 [INFO] root: (3/23) Page 3
+2026-05-29 11:08:04,078 [INFO] root: (4/23) Page 4
+2026-05-29 11:08:04,092 [INFO] root: (5/23) Page 5
+2026-05-29 11:08:04,121 [INFO] root: (6/23) Page 6
+2026-05-29 11:08:04,167 [INFO] root: (7/23) Page 7
+2026-05-29 11:08:04,206 [INFO] root: (8/23) Page 8
+2026-05-29 11:08:04,233 [INFO] root: (9/23) Page 9
+2026-05-29 11:08:04,251 [INFO] root: (10/23) Page 10
+2026-05-29 11:08:04,304 [INFO] root: (11/23) Page 11
+2026-05-29 11:08:04,306 [INFO] root: (12/23) Page 12
+2026-05-29 11:08:04,312 [INFO] root: (13/23) Page 13
+2026-05-29 11:08:04,319 [INFO] root: (14/23) Page 14
+2026-05-29 11:08:04,351 [INFO] root: (15/23) Page 15
+2026-05-29 11:08:04,412 [INFO] root: (16/23) Page 16
+2026-05-29 11:08:04,475 [INFO] root: (17/23) Page 17
+2026-05-29 11:08:04,556 [INFO] root: (18/23) Page 18
+2026-05-29 11:08:04,575 [INFO] root: (19/23) Page 19
+2026-05-29 11:08:04,587 [INFO] root: (20/23) Page 20
+2026-05-29 11:08:04,600 [INFO] root: (21/23) Page 21
+2026-05-29 11:08:04,611 [INFO] root: (22/23) Page 22
+2026-05-29 11:08:04,623 [INFO] root: (23/23) Page 23
+2026-05-29 11:08:04,668 [INFO] root: Terminated in 2.03s.
+2026-05-29 11:08:04,670 [INFO] app.services.converter_service: PDF -> DOCX: C:\Users\Ravy\Documents\pdf-converter\outputs\20260529_110801_Final (3)_20260529_110802.docx
+2026-05-29 11:08:04,670 [INFO] app.utils.file_handler: Deleted file: C:\Users\Ravy\Documents\pdf-converter\uploads\20260529_110801_Final (3).pdf

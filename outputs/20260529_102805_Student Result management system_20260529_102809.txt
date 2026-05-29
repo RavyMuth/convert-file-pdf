@@ -1,0 +1,616 @@
+--- Page 1 ---
+Quest Journals 
+Journal of Software Engineering and Simulation  
+Volume 9 ~ Issue 4 (2023) pp: 53-61 
+ISSN(Online) :2321-3795 ISSN (Print):2321-3809  
+www.questjournals.org 
+ 
+ 
+ 
+ 
+*Corresponding Author:  Rainy                                                                                                                   53 | Page 
+Research Paper 
+Student Result Management System 
+ 
+ Rainy  
+Department of CSE 
+Chandigarh University  
+Mohali, India  
+ 
+Dipti Sharma  
+Department of CSE 
+Chandigarh University  
+Mohali, India  
+ 
+Harmanjeet Singh  
+Department of CSE 
+Chandigarh University  
+Mohali, India  
+ 
+Abstract— An online platform called a Student Result Management System was created to make it easier to 
+manage student scholastic records, grades, and other related data. For students, teachers, and administrators 
+to view and handle academic records, the system offers a user-friendly interface. While students can view their 
+grades, attendance, and other academic information, teachers can input and update student grades, data, and 
+other pertinent information. Additionally, the system offers real-time analytics and reports to assist 
+administrators in making fact-based choices. In handling student academic records, a Student Result 
+Management System should be accurate, effective, and transparent. This abstract emphasizes these features and 
+advantages. The system is intended to automate and simplify the process of managing student data, including 
+keeping track of grades, attendance, and other data, producing reports, and giving students and parents 
+academic input. The whole world and the administrators of educational institutions in our country care about 
+the accuracy of student results. The overall academic performance of the student is affected by the presence of 
+the student in his institute. Mainly there are two common methods of taking the results and presenting them on 
+the result sheet or recording the student's mark on paper. Both were more time consuming and inefficient. 
+Therefore, a computerized student performance management system is necessary to help the faculty maintain 
+attendance records. The article examines various computer output management systems. This article identifies a 
+key issue in student attendance management that has traditionally been addressed by faculty. Computer View 
+offers one way to automate the student scoring system. This article examines the various computer systems that 
+have been developed using various techniques Based on this review, a new approach to recording and 
+managing student participation is proposed for various colleges or academic institutes. 
+The Student Performance Management System is a computer platform that simplifies the process of recording, 
+storing and retrieving academic information and student records. This system helps educational institutions 
+manage student data efficiently and minimize errors and redundancy. The system facilitates the automation of 
+tasks such as scoring, reporting and transcript generation, which improves the accuracy and speed of 
+processing results. 
+The system is designed to store student records, including personal information, academic records and other 
+relevant information. It allows students and teachers to access these records online, allowing easy retrieval of 
+student records and results. In addition, the system provides a variety of features to track student performance 
+and academic progress, including grade reporting, course scheduling, and attendance tracking. 
+A student performance management system offers several benefits to educational institutions, such as 
+administrative efficiency, student performance tracking and better decision making. This helps streamline the 
+processing of results, which reduces staff workload and ensures accurate and timely delivery of results. Overall, 
+a student performance management system is an important tool for educational institutions that want to 
+optimize their academic processes and improve student outcomes. 
+ 
+
+
+--- Page 2 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   54 | Page 
+Received 02 Apr., 2023; Revised 13 Apr., 2023; Accepted 15 Apr., 2023 © The author(s) 2023. 
+Published with open access at www.questjournals.org 
+ 
+I. INTRODUCTION  
+A student performance management system is a computer application that helps educational 
+institutions manage, record and analyze student academic records, including grades, attendance and other 
+relevant information. The system streamlines the management of student records by making it easy for 
+administrators, teachers and parents to access and analyze student performance data.  
+A typical student performance management system has the following characteristics:  
+ Student Profile Management: This feature allows administrators to create, store, and update student 
+information, including personal information, academic records, attendance information, and test scores.  
+ Grade Management: This feature allows teachers to enter test scores and generate grade reports for 
+individual students or classes.  
+ Reporting: The system can generate various reports including exam result reports, attendance reports 
+and student performance reports. Analysis: The system can analyze student performance data and generate 
+useful insights for teachers, administrators and parents.   
+  
+Communication: The system can facilitate communication between teachers, administrators and 
+parents, for example through automatic email notifications and alerts. Overall, a student performance 
+management system helps educational institutions manage student records more efficiently, resulting in better 
+academic performance and better decision-making. 
+As the number of people living on earth increases steadily, their need for more resources grows as well. 
+In order to use the living spaces better, water, food, and energy supplies need to be used more efficiently by the 
+communities. Indeed, this “need perception” has enabled people to create new technologies and useful 
+inventions starting from the Industrial Revolution to World Wars. Production alone is not sufficient to sustain 
+daily life. Communication of information and transportation of goods are also essential. 
+In a typical student performance management system, student data is entered into the system by 
+teachers and administrators, and the system automatically generates reports based on the entered information. 
+Reports may include test scores, attendance information, and student performance reports.   
+The system also provides tools to analyze student performance data and generate insights that help 
+teachers make better decisions about student support. For example, the system can identify trends in student 
+performance, such as subjects students struggle with, and make recommendations on how teachers can adjust 
+their teaching methods to better support students. To achieve a high-level position and a higher salary than 
+expected   advanced education  is necessary for every organization. A lot studies were conducted to analyze the 
+factors  refers to the academic performance of students in various fields universities, but less is done for private 
+universities. price education in private universities is much higher in comparison those of public institutions. 
+There are no guarantees the right to enter any college leads to success degree course. But academic success can 
+be there are several factors that can lead to success anywhere student life To improve quality  universities, 
+private universities and colleges must maintain a review and evaluate the excellence of the curriculum 
+components, study and academic programs, research and scholarship, staff, students, physical facilities, 
+equipment and learning materials and academic environment” [14]. Access to factors of academic performance 
+is also  important to help students  develop personal academic success at university. This the purpose of the 
+study is  to focus on  interaction   various factors and their role in performance college or university researchers. 
+ 
+ 
+ 
+ 
+
+
+--- Page 3 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   55 | Page 
+1.1 
+Data flow diagram of Student Result Management System 
+ 
+The purpose of this study is to identify and investigate most likely factors affecting academic 
+performance student activity in colleges Delhi, India. A study was conducted to identify this various factors that 
+affect student performance university degree and then we established the relationship between these factors and 
+their effects of the student's result. We also analyzed the performance of students based on gender and could get 
+good analysis results. This paper is based on of a study conducted to analyze academic success students in a 
+higher education setting. Sample group students are admitted to MCA course which is M.Sc degree program in 
+computer science. We adopted various statistical tools for the study. The analysis of the academic performance 
+of students is a major concern for universities and colleges. it is important from the point of view of planning 
+and managing studies pedagogy Analyzing student performance is essential to understanding how effective is 
+the current education system. The data separation is done using the clustering method. K-means clustering 
+algorithm is implemented in R [15][16]. We used Microsoft Excel to analyze and describe the data different 
+letters. Various methods such as clustering algorithms can be useful in performing analysis, for example student 
+performance to assess the impact of various factors performance [1]. The ultimate goal of research is to 
+formulate teaching pedagogy based on data analysis. The factors affecting the academic performance of students 
+each cluster helps identify strengths and weaknesses current pedagogical teaching. The final result of the study 
+is effective teaching pedagogy that can handle anything factors. 
+ 
+II. EASE OF USE 
+The want for a scholar end result control gadget arises from the truth that academic establishments should 
+manipulate massive quantities of scholar facts, inclusive of educational records, attendance, and different 
+applicable information. Managing this facts manually may be time-ingesting and error-prone, and might result 
+in inconsistencies and inaccuracies in scholar records. 
+A scholar end result control gadget can assist cope with those demanding situations via way of means of 
+offering a centralized platform for handling and reading scholar facts. Here are a few particular desires that a 
+scholar end result control gadget can cope with: 
+ 
+Efficient record-keeping: A scholar end result control gadget affords a centralized platform for storing and 
+handling scholar records, making it less complicated to get right of entry to and replace scholar facts. 
+Improved accuracy: By automating the technique of facts access and record-keeping, a scholar end result 
+control gadget can assist enhance the accuracy and consistency of scholar records. 
+Streamlined reporting: A scholar end result control gadget can generate reviews automatically, making it less 
+complicated for educators to investigate scholar facts and become aware of tendencies in scholar performance. 
+Enhanced conversation: A scholar end result control gadget can facilitate conversation among teachers, 
+administrators, and parents, offering a extra obvious and collaborative studying environment. 
+Better decision-making: By offering educators with get right of entry to to real-time facts on scholar 
+performance, a scholar end result control gadget can assist them make higher choices approximately the way to 
+guide  
+ 
+ 
+1.2 
+Statistics of Student Result Management System around the world. 
+ 
+III. LITERATURE REVIEW 
+Student performance management systems have been widely studied in the scientific literature, and many 
+researchers have focused on the benefits, challenges, and implementation of these systems. In this literature 
+review, I  summarize some of the main findings of the relevant studies.  
+1. 
+A study by Nithya and Uman (2018) investigated the effectiveness of a student performance 
+management system in a higher education institution in India. The study revealed that the system made data 
+management more efficient and helped eliminate errors and delays in processing results. In addition, the system 
+enabled better communication between teachers, students and parents, which led to better academic results. 
+
+
+--- Page 4 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   56 | Page 
+2. 
+Another study by Fajar et al. (2020) investigated the implementation of a student performance 
+management system in a private high school in Indonesia. The study found that the system helped streamline 
+administrative processes such as grading and attendance tracking and improved the accuracy and timeliness of 
+student performance reporting. The system also allowed for better communication between teachers, students 
+and parents, resulting in more effective academic feedback.   
+3. 
+In a study by Ayinde and Popoola (2016), the authors investigated the challenges of implementing a 
+student performance management system in a Nigerian university. The study found that challenges such as lack 
+of technical expertise, inadequate infrastructure and staff and student resistance to change hindered successful 
+implementation. However, the authors suggested that these challenges can be  overcome with proper planning, 
+training and stakeholder engagement.  
+4. 
+Finally, Kadir et al. (2020) investigated the potential of a student performance management system to 
+improve student learning outcomes in Malaysian universities. The study found that the system helped identify 
+areas where students needed additional support and enabled more effective tracking of student progress over 
+time. The authors suggested that the system could be used to teach pedagogical practices and improve student 
+engagement and motivation. 
+ 
+5. 
+Learning always leads to performance. It is the main pointer to show learning is resulted. [5] explains 
+about various categories of the outcomes of learning. They are defined as verbal information, intellectual skills, 
+attitudes and motor skills. Learning process has an impact and importance for these outcomes. Various learning 
+errands are required to show various learning results.  
+6. 
+Grade Point Average (GPA) is a main measure for finding students’ performance academically [6]. It 
+includes all the learning results anticipated of a student in his/her semesters’ subjects.  
+7. 
+According to [7], an important interpreter of any students’ graduate performance is GPA. Thus, it can 
+be considered as the main measure of student’s current and future studies.  
+8. 
+As per [8], putting higher demands on student learner is more important as compared to external forces.  
+9. 
+According to [9], the institutional guidelines and rules must be implemented properly to enhance the 
+studying environment. It is needed that institution’s plans and procedures must be directed towards students’ 
+accountability and they must be active enough to participate in their own college and university for promotion. 
+10. 
+ [10] did not consider other variables like students’ internal nature which would be obtained from 
+students’ assessments or results 
+11. 
+ [11] studied both the students’ characteristics and self-reported theories to identify the aspects that add 
+to the academic presentation of students at the university. Self-efficacy, assigned goals, self-goals and abilities 
+are four major causes the students’ academic performances.  
+12. 
+According to [12], students’ age is important for qualification which is essential for academic 
+performance.  
+13. 
+[13] through path analysis observed and explained gender to have a direct effect on the academic 
+performance of third year students. 
+ 
+There are many academic institutions in India. But only a few institutions are modernized and use software to 
+manage their daily work. A city like Bengaluru has around 1000 schools, more than 300 pre-university colleges 
+and colleges. Most of these academic institutions still use the traditional way of administration, which mainly 
+involves paper work and a lot of human effort. 
+Students admitted to educational institutions dependent on the traditional way of management have to work hard 
+to obtain a certificate or other documents. Administrations also struggle to keep all the records, records, and 
+retrieve records of interest to them in a timely manner. The managements of these institutions also have to hire 
+several employees just to keep the accounting documents necessary to manage and support their daily work. 
+Some universities like PESIT and Christ University in Bengaluru have their own online application which 
+addresses the issues mentioned earlier. 
+ 
+Comparative Analysis 
+ 
+Table 1 summarizes the research into several student analysis approaches presented by various researchers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- Page 5 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   57 | Page 
+Table1. Comparative Analysis of already existing student result management system. 
+Author 
+Method used 
+Data set 
+Accuracy 
+Remarks 
+Robbins, S.B., 
+Allen, J., Casillus 
+(2006) 
+MySQLDatabase 
+Management System 
+support 
+Student Dataset 
+NA 
+They investigated the effectiveness of a 
+student performance management system in 
+a higher education institution in India. The 
+study revealed that the system made data 
+management more efficient and helped 
+eliminate errors and delays in processing 
+results. 
+S. R.  
+Brarmagoudar,R. P. 
+Geeta(2013) 
+Automated Students Result 
+Management System using 
+Oracle’s Database 
+5286 Students 
+Dataset 
+85 
+The study found that the system helped 
+streamline administrative processes such as 
+grading and attendance tracking and 
+improved the accuracy and timeliness of 
+student performance reporting. The system 
+also allowed for better communication 
+between teachers, students and parents, 
+resulting in more effective academic 
+feedback. 
+ 
+Pooja Thakkar, Anil 
+Mehta(2015) 
+Javascript for front end and 
+PHP for Back end 
+ 
+Student Dataset 
+89 
+The study found that challenges such as lack 
+of technical expertise, inadequate 
+infrastructure and staff and student 
+resistance to change hindered successful 
+implementation 
+Bijoi C, Sanjay K., 
+Bhibak S.(2016) 
+HTML,CSS,JAVASCRIPT, 
+ReactJS 
+Undergraduate 
+student dataset 
+ 
+NA 
+The study found that the system helped 
+identify areas where students needed 
+additional support and enabled more 
+effective tracking of student progress over 
+time. The authors suggested that the system 
+could be used to teach pedagogical practices 
+and improve student engagement and 
+motivation. 
+ 
+Prof.Nithya and 
+Uman (2018) 
+Angular and Bootstrap 
+Student Dataset 
+91.2 
+They are defined as verbal information, 
+intellectual skills, attitudes and motor skills. 
+Learning process has an impact and 
+importance for these outcomes. Various 
+learning errands are required to show 
+various learning results. 
+ 
+Niranjan 
+Lal,Navneet 
+Kaur(2018) 
+Bootstrap ,NodeJS,ReactJS 
+5,426 students 
+92 
+It includes all the learning results 
+anticipated of a student in his/her semesters’ 
+subjects. 
+ 
+A Peda Gopi(2020) 
+HTML,CSS,JAVASCRIPT, 
+JAVA 
+Student Dataset 
+93 
+Is an important interpreter of any students’ 
+graduate performance is GPA 
+Prof Fajer (2020) 
+MYSQL Database and 
+ReactJS for front end 
+Graduate student 
+data set 
+NA 
+putting higher demands on student learner is 
+more important as compared to external 
+forces. 
+ 
+Tam, M. (2020). 
+Bootstrap ,PHP 
+Student 3rd 
+semester Result 
+Performance 
+93 
+It is needed that institution’s plans and 
+procedures must be directed towards 
+students’ accountability and they must be 
+active enough to participate in their own 
+college and university for promotion 
+
+
+--- Page 6 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   58 | Page 
+Kaberia, F. (2020). 
+HTML,CSS,JAVASCRIPT, 
+ReactJS 
+5206 students 
+Data set 
+NA 
+It did not consider other variables like 
+students’ internal nature which would be 
+obtained from students’ assessments or 
+results 
+ 
+Arepalli, SS 
+Kanumalli(2021) 
+Automated Students Result 
+Management System using 
+Oracle’s Database 
+2965 student 
+data set 
+94 
+students’ age is important for qualification 
+which is essential for academic 
+performance. 
+ 
+B.T. Rao, RSML 
+Patibandla (2021) 
+MySQLDatabase 
+Management System 
+support 
+4th semester 
+student result 
+data set 
+94.35 
+through path analysis observed and 
+explained gender to have a direct effect on 
+the academic performance of third year 
+students 
+ 
+IV. METHODOLOGY 
+We used software life cycle to create this automation based application system developmental model. 
+Since the design requirement was not well defined in the initial phase, we did this used a prototype model 
+approach for this system. In the prototyping model, software is created early requirements and improvements are 
+made while specifying the requirements. It is so to quickly create an activity with limited data and collect more 
+data at the same time. One time Data is collected and the prototype is modified accordingly. 
+ 
+ 
+1.3 
+Overall results of students 
+ 
+ 
+ 
+1.4 
+Result of Male Students 
+ 
+1.5 
+   Result of Female Students 
+
+
+--- Page 7 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   59 | Page 
+ 
+1 
+Define the requirements: The first step is to define the system requirements. This requires identifying 
+stakeholders such as teachers, students, administrators and parents and understanding their needs.   
+2 
+System Design: Design  the system architecture and user interface according to the requirements. The 
+design must be user-friendly, intuitive and efficient.  
+3 
+System Development: Once the design is complete, develop the system using programming languages 
+and tools. Make sure the system is scalable and can handle large amounts of data.   
+4 
+Test the system: Test the system thoroughly to make sure it meets your requirements and works 
+properly. This includes testing for bugs, security holes and performance issues.  
+5 
+System Deployment: Once the system has been tested and validated, deploy it to a production 
+environment. Ensure that the necessary hardware, software and network resources are in place.   
+6 
+Train users: Train users, including teachers, students, and administrators, to  use the system effectively.   
+7 
+System Maintenance: Maintain the  system regularly to ensure  it is working properly. This includes 
+software updates, bug and  security fixes.  
+8 
+System Improvement: Continually improve the system based on user feedback and changing 
+requirements. This could mean adding new features, optimizing performance or improving the user interface. 
+ 
+ 
+1.6 Flowchart of the management system 
+ 
+V. PROPOSED METHOD 
+The online student management system is the process of managing the student documents of the 
+educational institution organization This is done through an online method that was traditionally produced with 
+papers and manual ledgers It preserves the resources of students and administrators. This system provides a 
+simple user interface for maintenance from students' data [3]. This includes measures such as recording the 
+researcher's data, appointment department according to the chosen course and accounting. Because network 
+system, availability Information is global, which means access and information exchange is global. This 
+information is saved safely in an archive that makes it easy to retrieve and the data can be edited if necessary. 
+This is a software designed for the daily management of student documents in educational institutions. It helps 
+to get information about students of a particular class with just a few clicks. This system also helps creating a 
+student status report such as total amount, requested transaction, payment information, access to information and 
+so on. Click the mouse and the system will generate a student report that reduces the need for manual work 
+which is prone to error and time consuming. This application is designed for automatic processing of student 
+data management. It even heals speed of solving tasks. Student information is stored by batch, department and 
+section. Students and staff have a unique username and password available for email through the OTP concept  
+Microservices architecture is used for application development and deployment. The microservices architecture 
+is implemented using Spring-boot, which is a spring application opinion instance and also a rapid application 
+
+
+--- Page 8 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   60 | Page 
+development platform. The proposed methodology has 5 stages, which are requirements gathering, planning, 
+development and implementation, testing and maintenance.  
+ 
+1. 
+Requirements for assembly  
+Before starting projects,  requirements must be  gathered and their feasibility checked. The project can continue 
+if the requirements are feasible. In this phase, the stakeholders collect all the requirements necessary for the 
+development and implementation of the project  and communicate them to the designer and designer. In this 
+project, the final product of which will be a web application, the requirements are divided into six categories 
+such as Student Management Service, Course Management Service, Attendance Service, Administrative 
+Management Management, Document management service, employee management service.  
+ 
+2. 
+Student Administrative Service  
+ In this service, a student can check his attendance, progress report, result, send request for required documents, 
+view notifications, view schedule, view and submit assignments. Students can give feedback on the teachers' 
+performance in the class.  
+ 
+3. 
+Course management service  
+In this service, the administrator can add, edit and delete  courses. The administrator can also  add, update and 
+delete certain course topics. The teacher, guardian and students can only see the courses added by the 
+administrator. 
+  
+4. 
+Participant management service  
+In this service, a system administrator can report student attendance information, update and delete student 
+attendance according to the course and class they belong to. The teacher, guard and students can only see the 
+attendance.  
+ 
+5. 
+Administrative management service   
+ In this service, the administrator has access to all  resources. The system administrator can send notifications 
+via email, SMS and push messages. The system administrator can also add, update and delete the data of 
+students, guardians and staff.  
+ 
+6. 
+Document management service  
+The system administrator can add documents to this service, such as student report cards, ID cards, curriculum,   
+payment receipts, certificates and many other documents that are useful for the smooth operation of educational 
+and financial activities of the educational institution. 
+  
+7. 
+Employee management service  
+ In this service, the employee (teacher) can see the data of the students he supervises. The teacher can report on 
+the students' activities and evaluate the students' performances. The teacher can download the assignments and 
+check the assignments. 
+ 
+VI. CONCLUSION 
+In short, it can be stated that the student results management system is a key tool for educational 
+institutions to manage student data effectively and efficiently. With functions such as student registration, 
+assessment and evaluation, attendance tracking, reporting and analysis, communication and integration with 
+other systems, a student performance management system can help simplify administrative processes, improve 
+communication between teachers, students and parents, and provide valuable information about student 
+performance data. Implementing a student performance management system can increase productivity, improve 
+learning outcomes and improve engagement between teachers, students and parents. Overall, a student 
+performance management system is an invaluable tool for educational institutions that want to optimize their 
+operations and improve student learning outcomes. 
+The results obtained from  experiments and testing ensure that the proposed method is effective and 
+usable. Compared with existing management methods of educational institutions, this  centralized software 
+production project facilitates work management and administration, and provides users with detailed 
+information on an interesting topic with one  click. An educational institution can be offered easy-to-use 
+software focused on the user interface, where all services related to the educational institution can communicate 
+with each other and share information. Since it is  AWS Cloud Hosted ReST API, the user can access the 
+resources from remote locations. Because the application is developed with a microservices architecture 
+and 
+agile     methodology,  services can be added in the future without changing the existing code. 
+
+
+--- Page 9 ---
+Student Result Management System 
+*Corresponding Author:  Rainy                                                                                                                   61 | Page 
+REFERENCES 
+[1] 
+Gagn’e, R. (1985). The conditions of learning and theory of instruction. (4th Ed.) New York: Holt, Rinehart & Winston. 
+[2] 
+Smith, J. & Naylor, R. (2001). Determinants of degree performance in U.K. universities: a statistical analysis of the 1993 student 
+cohort. Oxford Bulletin of Economics and Statistics, 63, 1, 29-60. 
+[3] 
+Yang, B., & Lu, D. R. (2001). Predicting academic performance in management education: An empirical investigation of MBA  
+success.Journal of Education for Business, 77, 15-21. 
+[4] 
+Ofori, R. & Charlton, J. P. (2002). Issues and innovations in nursing education: A path model of factors influencing the academic 
+performance of nursing students. Journal of Advanced Nursing, 38, 507-515. 
+[5] 
+McKenzie, K., Gow, K. & Schweitzer, R. (2004). Exploring first-year academic achievement through structural equation modelling. 
+Higher Education Research & Development, 23, 1, 95-112. 
+[6] 
+Carroll, C. A., Garavalia, L. S. (2004). Factors contributing to the achievement of pharmacy students: Use of the goal-efficacy 
+framework. American Journal of Pharmaceutical Education, 68, 4, 88. 
+[7] 
+Zeegers, P. (2004). Student learning in higher education: a path analysis of academic achievement in science. Higher Education 
+research & Development, 23, 1, 35-56. 
+[8] 
+Naeimeh Delavari, “Application of Enhanced Analysis Model for Data Mining Processes in Higher Educational System “, 2005 
+IEEE July 7 Juan Dolio, Dominican Republic ITHET 6th Annual International Conference. 
+[9] 
+Fahim A. M., Salem A. M., Torkey F. A. and Ramadan M. A., “An efficient enhanced k-means clustering algorithm,” Journal of 
+Zhejiang University Science A., pp. 1626–1633, 2006. 
+[10] 
+ Sujit Sansgiry, M. Bhosle, and K. Sail, “Factors that affect academic performance among pharmacy students,” American Journal of 
+Pharmaceutical Education, 2006. 
+[11] 
+Robbins, S. B., Allen, J., Casillas, A., Peterson, C. H. & Le, H. (2006). Unravelling the differential effects of motivation and skills, 
+social and self-management measures from traditional predictors of college outcomes. Journal of Educational Psychology, 98, 3. 
+[12] 
+Bouras, “A Survey of Clustering Algorithms for Big Data: Taxonomy & Empirical Analysis,” IEEE transactions on emerging topics 
+in, (2014). 
+[13] 
+S.ARORA, I.CHANA, “A survey of clustering techniques for Big Data analysis,” in Confluence The Next Generation Information 
+Technology Summit (Confluence), 5th International Conference-. IEEE, p. 59-65, (2014). 
+[14] 
+Pooja Thakar, Anil Mehta , “Performance analysis and Prediction in Educational Data Mining”, International Journal of Computer 
+Applications (IJCA) , Volume 110, Issue 5, January 2015. 
+[15] 
+Niranjan Lal, Shamimul Qamar , Monika Kalra, “K- Mean Clustering Algorithm Approach for Data Mining of Heterogeneous 
+Data” Information and Communication Technology for Sustainable Development{ICT4SD), LNNS, Springer Proceeding , Volume 
+10, pp.61-70 2017. 
+[16] 
+Niranjan Lal, Navneet Kaur, "Clustering of Social Networking Data using SparkR in Big Data" Springer Nature Singapore Pte Ltd. 
+2018, Communications in Computer and Information Science (CCIS), Volume 906, pp. 217–226, Nov, 2018. 
+[17] 
+Kaberia, F. (2020). Enhancing quality and relevance in university education (Kenya). Paper presented in the fourth exhibition by 
+Kenyan Universities, Nairobi: Kenya. 
+[18] 
+Tam, M. (2020). Measuring the effect of higher education on university students. Quality Assurance in Education, 10, 4, 223- 228 
